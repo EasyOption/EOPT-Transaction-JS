@@ -1,16 +1,16 @@
-# EOPT Transaction JS
+# EOPT Batch Transaction JS
 
-这是EOPT代币（ERC20）的批量转账的js脚本，基于web3 1.0（不支持web3 0.20.x）和 ethereumjs-tx编写。
+This is a js script for mass transfer of EOPT (ERC20). It is based on web3 1.0 (Unsupported by web3 0.20.x) and ethereumjs-tx.
 
-## 用法
+## Usage
 
-替换以下参数：
+replace the arguments: 
 
-* 根据你的以太坊网络Provider，替换`<api-key>`
-* 用你的地址和私钥分别替换 `<sender address>` 和 `<private key>`
-* 将`<EOPT contract address>`替换为EOPT合约在你网络中的地址
+* Replace `<api-key>` in accordance with ethereum network Provider
+* Replace `<sender address>` and `<private key>`
+* Replace `<EOPT contract address>` with mainnet token contract address
 
-运行：
+run：
 
 ```
 node eopt_transaction_example.js
